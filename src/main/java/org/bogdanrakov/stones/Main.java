@@ -14,7 +14,9 @@ public class Main {
         necklace.addGem(new Gem("Ruby", new BigDecimal(14), 8, 0.4));
 
         System.out.println(necklace);
-        System.out.println("Necklace price: " + necklace.getPrice());
-        System.out.println("Necklace weight: " + necklace.getWeight());
+        System.out.println(necklace.getPrice());
+        System.out.println(necklace.getWeight());
+
+        System.out.println(necklace.getGemsBetweenTransparency(2, 6));
     }
 }
