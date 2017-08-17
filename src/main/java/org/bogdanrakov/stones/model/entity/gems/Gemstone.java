@@ -1,18 +1,18 @@
-package org.bogdanrakov.stones.model.entity;
+package org.bogdanrakov.stones.model.entity.gems;
 
 import java.math.BigDecimal;
 
-public class Gem {
+public class Gemstone {
 
     private String name;
     private BigDecimal price;
     private int transparency;
     private double carats;
 
-    public Gem() {
+    public Gemstone() {
     }
 
-    public Gem(String name, BigDecimal price, int transparency, double carats) {
+    public Gemstone(String name, BigDecimal price, int transparency, double carats) {
         this.name = name;
         this.price = price;
         this.transparency = transparency;
@@ -53,7 +53,7 @@ public class Gem {
 
     @Override
     public String toString() {
-        return "Gem{" +
+        return "Gemstone{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 ", transparency=" + transparency +
